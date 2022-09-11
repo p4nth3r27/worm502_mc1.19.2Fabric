@@ -1,5 +1,6 @@
 package net.P4NTH3R27.worm502;
 
+import net.P4NTH3R27.worm502.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,5 +11,8 @@ public class Worm502 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
+
 	}
 }

@@ -1,0 +1,10 @@
+{
+  "worm502": {
+    "sounds": [
+      {
+       "name": "worm502:worm502",
+        "stream": true
+      }
+    ]
+  }
+}
