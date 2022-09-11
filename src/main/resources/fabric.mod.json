@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "worm502",
+  "version": "${version}",
+
+  "name": "Worm502 Mod",
+  "description": "This is an exmample descriptpion! Tell everyone what your mdod is aboubt!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.P4NTH3R27.worm502.Worm502"
+    ],
+    "client": [
+      "net.P4NTH3R27.worm502.Worm502Client"
+    ]
+  },
+  "mixins": [
+    "worm502.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

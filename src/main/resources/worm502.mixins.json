@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.P4NTH3R27.worm502.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "WormMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
